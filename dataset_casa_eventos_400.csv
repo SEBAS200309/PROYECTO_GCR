@@ -1,0 +1,401 @@
+Nombre evento,Fecha,Tipo evento,Cantidad personal,Total pax,Retraso?,Incompleto,Calidad del evento,Calidad de la comida,Calidad de la organizacion,Error en pedido
+Boda Ramírez #16,25/06/2024,Boda,8,92,No,No,10,8,8,No
+Fiesta de grado Graduación #47,12/10/2022,Fiesta de grado,9,189,Si,No,10,8,6,No
+Cumpleaños Familia Pérez 39 años #80,10/12/2025,Fiesta de cumpleaños,4,76,Si,No,7,9,6,No
+Boda Gómez #2,07/05/2024,Boda,20,263,No,No,8,9,9,No
+Cumpleaños Familia Rojas 66 años #36,06/09/2022,Fiesta de cumpleaños,4,45,No,No,9,7,10,No
+Entrega de alimentos Fundación Vida #46,28/11/2025,Entrega de alimentos,3,111,No,Si,6,4,10,No
+Entrega de alimentos Comedor Comunitario #3,30/08/2021,Entrega de alimentos,5,199,No,No,7,6,7,No
+Entrega de alimentos Programa Alimentario #5,29/07/2025,Entrega de alimentos,10,349,No,No,8,5,10,No
+Entrega de alimentos Programa Alimentario #40,23/07/2021,Entrega de alimentos,5,249,No,No,9,6,8,Si
+15 años Natalia #53,21/05/2023,15 años,9,176,No,No,8,10,9,No
+15 años Sara #70,17/05/2023,15 años,9,169,No,No,9,8,9,No
+Fiesta de grado Grados #80,07/07/2022,Fiesta de grado,8,143,No,No,7,8,9,No
+Boda Castro #54,14/12/2023,Boda,13,195,No,No,7,8,9,Si
+Entrega de alimentos Empresa Andina #71,01/08/2021,Entrega de alimentos,11,396,No,No,8,8,6,No
+Entrega de alimentos Colegio Nuevo Horizonte #16,02/11/2025,Entrega de alimentos,7,345,No,Si,6,6,9,No
+15 años Gabriela #50,20/03/2022,15 años,8,111,No,No,9,9,9,No
+Fiesta de grado Promoción #35,14/01/2022,Fiesta de grado,6,119,No,No,6,10,9,No
+Entrega de alimentos Fundación Vida #8,01/11/2023,Entrega de alimentos,10,430,No,No,10,5,9,No
+15 años Valentina #18,30/12/2021,15 años,10,156,No,No,5,6,8,Si
+Fiesta de grado Egresados #68,28/04/2022,Fiesta de grado,11,210,No,No,8,8,7,No
+Fiesta de grado Ceremonia #4,08/03/2024,Fiesta de grado,6,102,No,No,8,9,7,No
+Entrega de alimentos Hospital San José #23,28/01/2024,Entrega de alimentos,9,421,No,No,5,8,7,Si
+Entrega de alimentos Colegio Nuevo Horizonte #74,02/12/2022,Entrega de alimentos,3,131,No,No,9,6,6,No
+Cumpleaños Familia Rojas 59 años #68,02/05/2023,Fiesta de cumpleaños,4,59,No,No,8,8,8,No
+Cumpleaños Familia Ortiz 11 años #60,17/11/2025,Fiesta de cumpleaños,4,51,Si,No,8,8,8,No
+Fiesta de grado Promoción #36,31/07/2021,Fiesta de grado,5,86,No,No,8,10,8,No
+Fiesta de grado Egresados #50,24/12/2022,Fiesta de grado,10,218,Si,No,9,8,7,No
+Fiesta de grado Grados #43,30/07/2024,Fiesta de grado,6,120,No,No,10,9,9,No
+Entrega de alimentos Banco Central #37,11/10/2024,Entrega de alimentos,8,307,Si,No,8,6,5,Si
+15 años Sara #40,10/09/2025,15 años,6,55,No,No,9,8,9,No
+15 años Sofía #73,14/11/2023,15 años,6,109,Si,No,10,9,8,No
+Boda García #5,15/08/2022,Boda,15,264,No,No,10,9,10,No
+Boda Morales #22,28/11/2024,Boda,11,143,No,No,8,7,7,Si
+Entrega de alimentos Programa Alimentario #52,22/10/2025,Entrega de alimentos,3,119,No,No,10,10,8,No
+Entrega de alimentos Programa Alimentario #60,01/06/2024,Entrega de alimentos,3,84,Si,No,9,8,7,No
+Boda Gómez #56,12/04/2025,Boda,13,217,No,No,8,9,9,No
+15 años Luisa #46,15/04/2022,15 años,10,157,No,No,9,7,10,No
+Boda Ramírez #10,07/11/2023,Boda,8,114,No,No,7,10,7,Si
+Entrega de alimentos Banco Central #59,14/12/2023,Entrega de alimentos,7,413,No,No,8,8,7,Si
+Cumpleaños Familia Díaz 16 años #23,01/08/2022,Fiesta de cumpleaños,8,156,No,No,7,9,6,No
+Entrega de alimentos Colegio Nuevo Horizonte #62,23/12/2024,Entrega de alimentos,5,209,No,Si,7,7,8,No
+Entrega de alimentos Banco Central #33,29/11/2025,Entrega de alimentos,4,158,No,No,9,7,6,No
+Entrega de alimentos Fundación Vida #75,19/10/2022,Entrega de alimentos,6,293,No,No,7,7,9,Si
+Fiesta de grado Egresados #64,22/10/2024,Fiesta de grado,5,64,No,No,9,9,7,No
+Entrega de alimentos Comedor Comunitario #70,07/07/2024,Entrega de alimentos,8,414,No,No,7,9,8,No
+Cumpleaños Familia Pérez 67 años #33,11/12/2021,Fiesta de cumpleaños,5,95,No,No,7,10,10,No
+Boda Ramírez #50,18/05/2024,Boda,8,110,No,No,8,8,8,Si
+Cumpleaños Familia Navarro 66 años #45,26/04/2025,Fiesta de cumpleaños,8,152,No,No,9,7,10,No
+15 años Luisa #65,25/10/2021,15 años,6,120,No,No,9,8,10,No
+Boda Hernández #64,02/06/2025,Boda,12,171,No,No,7,9,8,No
+15 años Natalia #67,14/09/2024,15 años,6,99,No,No,9,6,10,No
+Boda Pérez #14,17/10/2023,Boda,8,110,Si,No,8,8,7,No
+15 años Valentina #22,09/12/2025,15 años,9,141,No,No,9,9,8,No
+Entrega de alimentos Fundación Vida #48,05/11/2021,Entrega de alimentos,11,423,Si,No,8,9,8,No
+Cumpleaños Familia Medina 72 años #15,28/02/2023,Fiesta de cumpleaños,5,92,No,No,8,10,9,No
+Fiesta de grado Promoción #65,16/05/2024,Fiesta de grado,6,103,No,No,10,7,9,No
+Cumpleaños Familia Medina 3 años #7,24/12/2022,Fiesta de cumpleaños,4,56,No,Si,5,5,8,Si
+Fiesta de grado Ceremonia #70,26/05/2023,Fiesta de grado,11,214,No,No,9,8,10,No
+Entrega de alimentos Fundación Vida #26,11/10/2025,Entrega de alimentos,7,349,No,No,10,10,10,No
+Entrega de alimentos Fundación Vida #29,07/11/2023,Entrega de alimentos,4,253,No,No,7,8,8,Si
+15 años Sara #19,10/03/2023,15 años,6,100,Si,Si,5,8,7,No
+Boda Pérez #72,31/10/2021,Boda,14,183,Si,No,7,10,7,No
+Boda López #24,09/03/2025,Boda,19,228,No,No,8,10,10,No
+Boda García #55,18/11/2025,Boda,13,186,No,No,10,9,9,No
+Entrega de alimentos Hospital San José #2,19/10/2022,Entrega de alimentos,3,137,No,No,7,9,8,No
+15 años Sara #30,23/11/2023,15 años,8,129,No,No,7,8,7,Si
+15 años Gabriela #78,07/01/2023,15 años,6,101,No,No,9,8,9,No
+Entrega de alimentos Banco Central #24,24/12/2021,Entrega de alimentos,5,264,Si,No,8,6,10,No
+Fiesta de grado Grados #20,30/01/2021,Fiesta de grado,10,167,No,No,8,8,8,No
+Boda Castro #41,17/04/2021,Boda,10,169,No,No,10,10,8,No
+Boda Hernández #63,22/05/2025,Boda,9,128,Si,No,8,7,8,No
+15 años Daniela #5,19/12/2025,15 años,11,168,No,No,10,9,10,No
+Entrega de alimentos Empresa Andina #10,11/12/2023,Entrega de alimentos,9,357,No,No,8,8,9,No
+Entrega de alimentos Colegio Nuevo Horizonte #64,04/10/2024,Entrega de alimentos,7,356,No,No,8,5,7,No
+Cumpleaños Familia Ortiz 62 años #37,16/10/2023,Fiesta de cumpleaños,4,63,No,No,8,10,7,No
+Entrega de alimentos Banco Central #76,02/10/2025,Entrega de alimentos,3,172,No,Si,6,6,10,No
+Boda Morales #69,12/01/2025,Boda,8,103,No,No,10,9,10,No
+Fiesta de grado Promoción #25,21/05/2021,Fiesta de grado,6,123,No,No,7,10,8,No
+Entrega de alimentos Colegio Nuevo Horizonte #21,31/12/2022,Entrega de alimentos,3,81,No,No,7,10,10,No
+Boda Ramírez #26,22/10/2022,Boda,18,264,No,No,10,9,8,No
+Boda López #36,15/03/2023,Boda,8,92,No,No,9,8,10,No
+15 años Sofía #13,11/10/2022,15 años,6,88,Si,No,8,10,7,No
+Entrega de alimentos Comedor Comunitario #1,05/11/2021,Entrega de alimentos,3,149,Si,No,7,8,6,No
+Fiesta de grado Ceremonia #40,22/09/2023,Fiesta de grado,7,111,No,No,7,7,9,No
+Boda Rodríguez #25,23/05/2022,Boda,8,100,No,No,10,7,9,No
+Entrega de alimentos Banco Central #38,29/10/2023,Entrega de alimentos,7,402,No,No,9,10,6,No
+Cumpleaños Familia Medina 76 años #10,27/12/2023,Fiesta de cumpleaños,4,61,No,No,8,7,10,No
+Entrega de alimentos Fundación Vida #32,08/02/2023,Entrega de alimentos,6,311,No,No,8,7,7,No
+Cumpleaños Familia Ortiz 50 años #75,21/01/2021,Fiesta de cumpleaños,8,160,No,Si,6,4,9,No
+Boda Martínez #12,30/12/2025,Boda,9,132,No,No,7,8,8,Si
+Cumpleaños Familia Medina 66 años #17,06/04/2021,Fiesta de cumpleaños,4,60,No,No,10,7,8,No
+Boda Sánchez #58,16/07/2023,Boda,10,152,No,No,9,8,9,No
+Fiesta de grado Promoción #61,05/11/2023,Fiesta de grado,6,148,No,No,8,10,8,No
+Boda Pérez #80,20/07/2021,Boda,11,165,No,No,10,10,10,No
+Boda Morales #52,15/08/2024,Boda,9,167,No,No,6,8,8,Si
+Boda Pérez #4,15/07/2024,Boda,10,164,Si,No,9,8,9,No
+15 años Sofía #52,27/07/2025,15 años,6,74,No,No,9,6,8,No
+Cumpleaños Familia Pérez 30 años #35,27/10/2024,Fiesta de cumpleaños,7,131,No,No,8,9,7,No
+Fiesta de grado Ceremonia #62,28/09/2024,Fiesta de grado,8,188,Si,No,9,7,8,No
+15 años Sofía #7,27/06/2025,15 años,7,110,No,No,10,8,9,No
+Entrega de alimentos Empresa Andina #15,28/10/2023,Entrega de alimentos,5,206,No,No,8,10,8,No
+Cumpleaños Familia Medina 7 años #43,20/11/2022,Fiesta de cumpleaños,4,71,Si,Si,7,5,6,No
+Boda Torres #62,09/11/2021,Boda,16,249,No,No,10,8,9,No
+15 años Camila #29,25/07/2025,15 años,7,110,No,No,9,7,9,No
+Boda Castro #15,14/10/2023,Boda,16,249,No,No,8,9,10,No
+Cumpleaños Familia Herrera 25 años #26,27/04/2024,Fiesta de cumpleaños,4,49,No,Si,7,5,8,No
+Cumpleaños Familia Díaz 43 años #8,28/11/2022,Fiesta de cumpleaños,7,146,Si,No,8,8,7,No
+Entrega de alimentos Banco Central #43,23/11/2021,Entrega de alimentos,9,329,No,No,9,5,7,Si
+15 años Camila #14,28/02/2021,15 años,11,204,No,Si,9,6,10,No
+Cumpleaños Familia Díaz 43 años #27,19/04/2022,Fiesta de cumpleaños,6,111,No,No,7,8,9,Si
+15 años Sara #23,06/11/2023,15 años,9,172,Si,No,8,7,7,No
+Boda Hernández #19,14/02/2025,Boda,8,81,No,No,10,9,9,No
+Fiesta de grado Ceremonia #33,11/12/2025,Fiesta de grado,5,79,No,No,8,10,7,No
+Fiesta de grado Graduación #2,30/07/2025,Fiesta de grado,5,111,No,No,8,6,10,Si
+15 años Luisa #17,16/02/2024,15 años,6,101,No,No,9,8,10,No
+15 años Daniela #39,31/01/2023,15 años,8,157,No,No,10,10,9,No
+15 años Daniela #80,18/05/2022,15 años,9,160,No,No,8,7,9,No
+15 años Valentina #74,14/09/2021,15 años,6,79,No,No,9,9,8,No
+15 años Sofía #51,18/01/2024,15 años,10,169,No,No,10,6,8,No
+Entrega de alimentos Hospital San José #61,20/01/2023,Entrega de alimentos,3,109,No,No,7,7,7,No
+Entrega de alimentos Empresa Andina #78,31/10/2023,Entrega de alimentos,8,334,No,Si,7,5,10,No
+Fiesta de grado Ceremonia #3,05/10/2022,Fiesta de grado,5,111,No,No,7,9,8,Si
+Boda López #65,19/08/2025,Boda,9,149,No,No,9,8,10,No
+Entrega de alimentos Empresa Andina #58,23/07/2024,Entrega de alimentos,8,322,No,No,9,8,9,No
+Cumpleaños Familia Rojas 53 años #47,09/09/2021,Fiesta de cumpleaños,8,149,No,No,10,10,10,No
+Fiesta de grado Grados #26,26/10/2022,Fiesta de grado,11,181,No,No,7,10,10,No
+Cumpleaños Familia Pérez 5 años #61,06/09/2023,Fiesta de cumpleaños,6,116,No,No,10,9,8,No
+15 años Valentina #76,28/10/2024,15 años,6,88,No,Si,5,4,7,Si
+Cumpleaños Familia Herrera 5 años #22,23/01/2022,Fiesta de cumpleaños,4,42,No,No,9,10,10,No
+Fiesta de grado Promoción #23,26/02/2022,Fiesta de grado,5,76,No,No,7,8,8,No
+15 años Daniela #60,02/10/2025,15 años,8,138,Si,No,9,7,8,No
+Entrega de alimentos Hospital San José #14,08/04/2024,Entrega de alimentos,5,289,Si,No,7,8,7,No
+Entrega de alimentos Programa Alimentario #66,28/08/2024,Entrega de alimentos,9,479,Si,No,9,6,9,No
+Entrega de alimentos Comedor Comunitario #69,03/08/2022,Entrega de alimentos,7,356,No,No,6,6,8,No
+Cumpleaños Familia Díaz 78 años #12,05/11/2021,Fiesta de cumpleaños,7,156,No,No,8,8,8,No
+Cumpleaños Familia Navarro 30 años #62,16/12/2025,Fiesta de cumpleaños,4,52,No,No,7,7,9,Si
+15 años Natalia #75,20/05/2024,15 años,8,124,No,No,10,8,9,No
+15 años Natalia #35,20/10/2021,15 años,6,98,No,No,9,8,9,No
+Fiesta de grado Ceremonia #10,12/10/2023,Fiesta de grado,10,177,No,No,6,8,9,No
+Fiesta de grado Promoción #7,02/02/2025,Fiesta de grado,5,55,No,No,8,9,9,No
+Fiesta de grado Graduación #46,09/10/2024,Fiesta de grado,5,59,No,No,8,8,7,No
+15 años Isabella #71,01/11/2025,15 años,11,166,No,No,10,10,10,No
+Cumpleaños Familia Herrera 72 años #76,02/11/2021,Fiesta de cumpleaños,6,131,Si,No,6,8,5,No
+Fiesta de grado Egresados #56,07/06/2022,Fiesta de grado,11,238,No,No,9,8,7,No
+Boda García #48,22/10/2024,Boda,8,108,No,Si,8,8,10,No
+Entrega de alimentos Empresa Andina #17,10/11/2021,Entrega de alimentos,4,165,No,Si,5,6,10,No
+Cumpleaños Familia Rojas 55 años #41,04/07/2024,Fiesta de cumpleaños,4,89,No,No,10,8,10,No
+Entrega de alimentos Programa Alimentario #51,31/10/2024,Entrega de alimentos,3,120,No,No,8,9,8,No
+Cumpleaños Familia Herrera 49 años #20,22/12/2021,Fiesta de cumpleaños,4,59,No,Si,6,8,10,No
+15 años Gabriela #68,20/07/2022,15 años,6,60,No,No,9,7,9,No
+15 años Sara #2,09/10/2024,15 años,10,173,No,No,9,10,8,No
+Boda Martínez #11,04/11/2021,Boda,8,119,Si,No,6,8,8,No
+Boda Ramírez #30,28/12/2024,Boda,14,178,No,No,6,8,8,Si
+Boda Gómez #61,31/03/2023,Boda,9,154,No,No,10,7,10,No
+Entrega de alimentos Comedor Comunitario #20,22/09/2022,Entrega de alimentos,4,156,No,No,7,7,8,Si
+Boda Castro #40,14/06/2021,Boda,11,164,No,No,9,9,10,No
+Entrega de alimentos Banco Central #41,12/05/2024,Entrega de alimentos,10,374,Si,No,8,10,7,No
+Cumpleaños Familia Díaz 25 años #77,18/11/2025,Fiesta de cumpleaños,4,84,No,No,10,8,8,No
+Fiesta de grado Promoción #9,26/11/2022,Fiesta de grado,8,187,No,No,7,10,10,No
+15 años Camila #58,19/02/2022,15 años,6,90,No,No,10,10,7,No
+Cumpleaños Familia Herrera 27 años #50,28/11/2025,Fiesta de cumpleaños,4,78,No,No,6,6,10,No
+Cumpleaños Familia Herrera 44 años #2,03/12/2021,Fiesta de cumpleaños,4,66,No,No,9,10,7,No
+Entrega de alimentos Hospital San José #27,07/10/2021,Entrega de alimentos,4,140,No,Si,8,7,7,No
+15 años Daniela #37,22/11/2023,15 años,10,141,Si,No,7,9,9,No
+Boda Sánchez #73,10/12/2025,Boda,8,99,No,No,10,10,10,No
+15 años Sofía #11,20/09/2024,15 años,8,153,No,No,8,8,9,No
+Entrega de alimentos Hospital San José #22,15/08/2024,Entrega de alimentos,8,387,No,No,8,5,8,No
+Cumpleaños Familia Herrera 7 años #69,07/10/2021,Fiesta de cumpleaños,5,75,No,Si,4,7,9,No
+Fiesta de grado Graduación #66,25/11/2022,Fiesta de grado,7,135,Si,No,7,7,6,No
+15 años Sara #16,26/06/2025,15 años,6,109,No,No,9,10,8,No
+Entrega de alimentos Programa Alimentario #47,13/10/2022,Entrega de alimentos,5,242,No,No,8,10,8,No
+Cumpleaños Familia Navarro 12 años #31,17/03/2025,Fiesta de cumpleaños,7,126,No,No,8,8,10,No
+Boda García #67,10/12/2022,Boda,19,258,No,No,9,10,10,No
+Boda Hernández #44,03/11/2021,Boda,9,146,No,No,10,9,10,No
+Boda Rodríguez #79,16/02/2021,Boda,12,179,No,Si,6,5,7,Si
+Entrega de alimentos Comedor Comunitario #34,23/08/2022,Entrega de alimentos,9,347,No,Si,4,5,10,No
+15 años Daniela #66,12/01/2021,15 años,9,146,No,No,8,9,8,No
+Boda Sánchez #78,16/11/2023,Boda,12,192,No,No,10,10,9,No
+Cumpleaños Familia Pérez 75 años #30,21/11/2025,Fiesta de cumpleaños,8,138,Si,No,10,8,8,No
+Fiesta de grado Egresados #44,05/05/2024,Fiesta de grado,6,111,No,No,9,8,9,Si
+15 años Daniela #61,24/11/2021,15 años,10,160,No,No,8,6,9,Si
+15 años Isabella #56,15/10/2025,15 años,6,105,No,No,10,7,10,No
+Entrega de alimentos Fundación Vida #31,01/05/2022,Entrega de alimentos,5,272,No,No,6,8,10,No
+Cumpleaños Familia Pérez 21 años #58,03/11/2023,Fiesta de cumpleaños,6,107,No,No,10,10,10,No
+Cumpleaños Familia Ortiz 67 años #55,29/03/2023,Fiesta de cumpleaños,8,161,No,No,9,7,8,No
+15 años Gabriela #45,26/12/2024,15 años,6,108,Si,No,8,7,8,No
+15 años Natalia #4,13/04/2022,15 años,8,133,No,No,9,8,8,No
+Fiesta de grado Egresados #34,18/06/2025,Fiesta de grado,5,52,No,No,10,9,10,No
+Entrega de alimentos Programa Alimentario #28,07/01/2021,Entrega de alimentos,5,224,Si,No,6,7,7,No
+Entrega de alimentos Banco Central #45,13/09/2025,Entrega de alimentos,8,375,No,No,8,8,10,No
+15 años Camila #69,31/12/2023,15 años,9,172,No,No,10,9,9,No
+15 años Sofía #26,27/10/2022,15 años,9,135,No,No,10,10,9,No
+15 años Daniela #6,08/11/2021,15 años,12,177,No,No,7,7,10,No
+Entrega de alimentos Comedor Comunitario #12,30/08/2025,Entrega de alimentos,7,406,No,No,8,6,9,No
+Entrega de alimentos Fundación Vida #54,22/09/2025,Entrega de alimentos,9,494,Si,No,6,8,8,No
+Boda Martínez #60,23/12/2023,Boda,18,236,No,Si,8,8,8,No
+Fiesta de grado Grados #41,27/01/2023,Fiesta de grado,5,78,No,No,8,7,8,No
+Entrega de alimentos Programa Alimentario #55,01/12/2025,Entrega de alimentos,3,137,No,No,9,8,9,No
+Fiesta de grado Ceremonia #74,24/08/2021,Fiesta de grado,8,188,No,No,8,9,10,No
+Cumpleaños Familia Pérez 9 años #4,15/12/2022,Fiesta de cumpleaños,6,91,No,No,9,9,8,No
+Cumpleaños Familia Rojas 65 años #13,21/12/2024,Fiesta de cumpleaños,8,163,No,No,9,8,9,No
+Fiesta de grado Promoción #6,31/07/2025,Fiesta de grado,5,74,No,No,10,10,7,No
+Fiesta de grado Grados #29,28/11/2023,Fiesta de grado,5,59,No,No,8,8,6,No
+Entrega de alimentos Comedor Comunitario #25,23/03/2022,Entrega de alimentos,5,220,No,No,8,6,8,No
+Cumpleaños Familia Ortiz 40 años #29,12/08/2023,Fiesta de cumpleaños,10,159,No,No,7,7,8,No
+15 años Luisa #9,02/08/2021,15 años,7,123,No,No,8,10,10,No
+15 años Sara #42,17/02/2022,15 años,8,146,Si,No,8,10,6,No
+Boda Rodríguez #34,10/12/2021,Boda,13,207,No,No,9,8,10,No
+Cumpleaños Familia Navarro 45 años #71,11/08/2024,Fiesta de cumpleaños,9,132,No,No,7,10,10,No
+Fiesta de grado Grados #15,04/12/2025,Fiesta de grado,5,113,No,No,7,8,8,No
+Cumpleaños Familia Díaz 74 años #51,11/07/2024,Fiesta de cumpleaños,6,100,No,No,9,6,10,No
+Boda Martínez #76,18/11/2022,Boda,13,220,No,No,10,8,9,No
+Boda Pérez #6,18/11/2024,Boda,8,100,Si,No,8,7,6,No
+Fiesta de grado Grados #1,23/10/2021,Fiesta de grado,10,172,No,No,10,8,10,No
+15 años Isabella #54,26/11/2021,15 años,6,99,No,No,8,7,9,No
+Boda Gómez #53,22/02/2025,Boda,12,220,No,No,7,8,9,Si
+Boda Hernández #39,30/10/2022,Boda,16,237,No,Si,8,5,7,No
+15 años Mariana #48,10/05/2021,15 años,7,136,No,No,9,10,10,No
+Boda Gómez #38,04/08/2023,Boda,9,145,No,No,10,10,7,No
+Fiesta de grado Grados #19,27/12/2025,Fiesta de grado,9,176,No,No,7,7,7,Si
+Cumpleaños Familia Díaz 59 años #48,25/11/2024,Fiesta de cumpleaños,4,37,Si,No,7,8,9,No
+Cumpleaños Familia Díaz 62 años #34,12/11/2023,Fiesta de cumpleaños,4,36,No,No,9,8,8,No
+Entrega de alimentos Comedor Comunitario #6,22/10/2023,Entrega de alimentos,9,417,Si,No,8,7,10,No
+Cumpleaños Familia Pérez 22 años #21,03/06/2024,Fiesta de cumpleaños,11,172,Si,No,10,6,7,No
+Boda López #20,23/02/2021,Boda,12,209,No,No,9,9,8,No
+Boda Sánchez #74,27/10/2021,Boda,14,247,No,No,8,8,9,No
+Boda Martínez #46,27/12/2022,Boda,10,145,No,No,6,7,10,Si
+15 años Mariana #21,12/01/2023,15 años,9,156,Si,No,8,5,8,Si
+Cumpleaños Familia Ortiz 30 años #40,16/03/2023,Fiesta de cumpleaños,4,46,No,No,6,6,6,Si
+Entrega de alimentos Hospital San José #19,04/11/2023,Entrega de alimentos,3,138,No,Si,5,7,10,No
+Entrega de alimentos Banco Central #42,08/10/2021,Entrega de alimentos,4,204,No,No,10,9,8,No
+Cumpleaños Familia Herrera 42 años #72,18/09/2024,Fiesta de cumpleaños,7,144,No,No,8,10,10,No
+Fiesta de grado Grados #69,25/12/2025,Fiesta de grado,5,101,No,No,5,8,7,Si
+Boda Gómez #49,10/12/2021,Boda,12,189,Si,No,5,8,6,Si
+Entrega de alimentos Comedor Comunitario #44,20/10/2022,Entrega de alimentos,11,499,No,No,6,9,7,Si
+Fiesta de grado Promoción #67,15/05/2025,Fiesta de grado,8,137,No,No,7,8,9,No
+Cumpleaños Familia Díaz 80 años #65,21/06/2022,Fiesta de cumpleaños,7,140,No,No,7,8,7,No
+Fiesta de grado Ceremonia #18,24/07/2024,Fiesta de grado,12,227,No,No,6,10,9,No
+Fiesta de grado Promoción #13,19/04/2023,Fiesta de grado,7,106,No,No,10,7,6,No
+Fiesta de grado Promoción #45,06/07/2024,Fiesta de grado,8,141,No,No,8,7,7,Si
+Cumpleaños Familia Díaz 31 años #64,03/04/2021,Fiesta de cumpleaños,8,167,No,No,8,10,8,No
+15 años Mariana #79,14/02/2024,15 años,6,79,No,No,9,8,10,No
+Entrega de alimentos Programa Alimentario #39,30/11/2024,Entrega de alimentos,9,319,No,No,10,7,8,No
+Entrega de alimentos Fundación Vida #80,04/05/2022,Entrega de alimentos,5,196,No,No,9,5,10,No
+Fiesta de grado Graduación #71,20/09/2025,Fiesta de grado,6,122,No,No,9,9,9,No
+Cumpleaños Familia Rojas 80 años #16,09/01/2022,Fiesta de cumpleaños,6,133,No,No,9,8,8,No
+Fiesta de grado Ceremonia #52,08/11/2024,Fiesta de grado,6,126,No,No,9,10,7,No
+Fiesta de grado Graduación #14,15/11/2022,Fiesta de grado,7,110,No,No,7,9,10,No
+Cumpleaños Familia Navarro 77 años #25,01/03/2025,Fiesta de cumpleaños,7,135,Si,No,8,8,9,No
+Fiesta de grado Graduación #22,08/03/2025,Fiesta de grado,14,229,No,No,9,8,10,No
+15 años Camila #41,01/05/2023,15 años,8,160,No,No,9,7,10,No
+Boda Sánchez #32,09/10/2021,Boda,8,99,No,No,6,7,7,Si
+Fiesta de grado Ceremonia #53,12/10/2023,Fiesta de grado,5,67,No,No,10,10,9,No
+15 años Mariana #55,30/08/2023,15 años,6,61,No,No,10,7,8,No
+15 años Sofía #49,25/11/2023,15 años,8,124,No,No,9,10,8,No
+Cumpleaños Familia Rojas 53 años #9,16/12/2024,Fiesta de cumpleaños,4,52,Si,No,8,9,7,No
+Entrega de alimentos Empresa Andina #9,11/05/2025,Entrega de alimentos,11,416,No,No,8,10,8,No
+Fiesta de grado Grados #17,05/10/2021,Fiesta de grado,5,87,No,No,10,9,9,No
+Fiesta de grado Promoción #31,19/05/2021,Fiesta de grado,9,182,Si,No,6,9,5,No
+Boda Pérez #33,11/07/2025,Boda,17,209,No,No,10,9,9,No
+Boda Morales #28,26/11/2023,Boda,8,113,No,No,6,9,8,Si
+15 años Natalia #62,13/12/2022,15 años,6,82,No,No,10,10,10,No
+Fiesta de grado Egresados #57,01/02/2021,Fiesta de grado,5,72,No,No,7,9,8,No
+Cumpleaños Familia Navarro 7 años #18,11/03/2023,Fiesta de cumpleaños,5,107,No,Si,6,7,8,No
+15 años Sara #57,05/04/2025,15 años,6,104,No,No,8,9,8,No
+Fiesta de grado Grados #21,12/05/2023,Fiesta de grado,5,68,No,No,7,8,6,No
+Fiesta de grado Graduación #5,24/04/2025,Fiesta de grado,9,202,No,No,9,8,7,No
+15 años Gabriela #36,21/01/2025,15 años,6,117,No,No,10,10,10,No
+15 años Sara #28,22/11/2024,15 años,6,58,No,No,10,8,10,No
+Cumpleaños Familia Medina 50 años #5,22/06/2025,Fiesta de cumpleaños,4,73,No,Si,7,9,8,No
+Boda Morales #59,10/11/2023,Boda,11,176,No,No,10,10,9,No
+Cumpleaños Familia Navarro 52 años #78,06/04/2025,Fiesta de cumpleaños,8,154,No,No,10,10,9,No
+Cumpleaños Familia Díaz 44 años #49,03/05/2023,Fiesta de cumpleaños,4,54,No,No,10,8,8,No
+Cumpleaños Familia Pérez 30 años #66,24/11/2022,Fiesta de cumpleaños,4,43,No,No,9,9,9,No
+15 años Sara #25,24/12/2025,15 años,8,158,No,No,10,8,9,No
+Boda Rodríguez #35,22/06/2022,Boda,15,255,No,No,8,9,10,No
+15 años Natalia #10,16/06/2024,15 años,6,88,No,No,8,9,9,No
+Cumpleaños Familia Navarro 70 años #39,05/08/2022,Fiesta de cumpleaños,4,30,No,Si,6,7,10,No
+Cumpleaños Familia Herrera 40 años #42,16/09/2021,Fiesta de cumpleaños,6,118,No,No,10,9,7,No
+Entrega de alimentos Programa Alimentario #18,29/11/2022,Entrega de alimentos,9,359,No,No,8,9,7,No
+Entrega de alimentos Hospital San José #56,28/11/2025,Entrega de alimentos,4,255,No,No,10,10,10,No
+Fiesta de grado Graduación #28,18/02/2025,Fiesta de grado,11,202,No,No,7,9,10,No
+Fiesta de grado Promoción #37,19/02/2024,Fiesta de grado,9,156,No,No,9,9,9,No
+Entrega de alimentos Comedor Comunitario #57,24/04/2021,Entrega de alimentos,7,256,No,No,8,9,9,Si
+Boda Rodríguez #27,10/10/2023,Boda,15,210,No,No,10,9,10,No
+Fiesta de grado Grados #27,22/07/2023,Fiesta de grado,10,160,Si,No,5,10,8,Si
+Cumpleaños Familia Díaz 49 años #24,30/05/2021,Fiesta de cumpleaños,7,121,No,No,9,7,9,No
+Boda Sánchez #29,08/01/2023,Boda,15,226,No,No,9,9,8,No
+Entrega de alimentos Empresa Andina #65,01/11/2022,Entrega de alimentos,3,156,Si,Si,4,7,10,No
+Boda Martínez #42,15/05/2024,Boda,14,218,No,Si,6,7,8,No
+15 años Luisa #27,28/01/2022,15 años,10,171,No,Si,7,6,10,No
+Cumpleaños Familia Rojas 14 años #38,13/05/2024,Fiesta de cumpleaños,4,24,No,No,6,7,9,No
+Entrega de alimentos Hospital San José #67,21/02/2023,Entrega de alimentos,6,267,No,No,8,8,8,No
+Fiesta de grado Ceremonia #59,08/08/2021,Fiesta de grado,11,184,No,No,10,9,8,No
+Cumpleaños Familia Navarro 28 años #79,19/10/2021,Fiesta de cumpleaños,6,131,No,No,10,6,7,No
+Entrega de alimentos Empresa Andina #63,02/05/2024,Entrega de alimentos,6,278,Si,No,9,7,9,No
+Entrega de alimentos Hospital San José #13,12/10/2025,Entrega de alimentos,8,432,Si,No,9,8,9,No
+Fiesta de grado Grados #11,12/03/2022,Fiesta de grado,10,185,No,No,8,8,10,No
+Fiesta de grado Graduación #38,05/12/2023,Fiesta de grado,5,72,No,No,7,8,9,Si
+Boda García #37,18/01/2022,Boda,10,159,No,No,8,8,8,No
+Boda López #1,08/09/2024,Boda,15,208,No,No,8,8,9,No
+Cumpleaños Familia Pérez 35 años #67,05/11/2024,Fiesta de cumpleaños,6,120,Si,No,9,8,7,No
+Fiesta de grado Graduación #30,12/04/2021,Fiesta de grado,10,182,No,No,8,7,8,No
+15 años Gabriela #15,23/04/2021,15 años,8,107,No,No,10,9,10,No
+Fiesta de grado Grados #48,20/02/2025,Fiesta de grado,5,65,No,No,8,7,9,No
+Boda Hernández #71,01/11/2024,Boda,14,207,No,No,10,10,7,No
+Fiesta de grado Promoción #78,13/12/2023,Fiesta de grado,5,69,No,Si,6,5,7,No
+Entrega de alimentos Hospital San José #77,17/03/2023,Entrega de alimentos,9,396,No,No,8,7,7,No
+Boda Morales #13,31/07/2024,Boda,18,232,No,No,10,7,9,No
+Cumpleaños Familia Pérez 17 años #59,28/04/2025,Fiesta de cumpleaños,4,85,No,No,8,6,6,No
+Cumpleaños Familia Rojas 35 años #53,09/04/2021,Fiesta de cumpleaños,9,155,No,No,9,10,10,No
+Fiesta de grado Grados #76,05/12/2021,Fiesta de grado,5,101,No,No,10,8,7,No
+15 años Gabriela #3,13/01/2022,15 años,6,64,No,No,8,10,9,No
+15 años Valentina #77,30/12/2024,15 años,6,108,No,No,7,9,10,No
+Entrega de alimentos Colegio Nuevo Horizonte #11,19/10/2024,Entrega de alimentos,7,242,No,No,9,7,9,No
+Boda Martínez #9,02/10/2024,Boda,8,87,Si,No,8,10,8,No
+Boda Gómez #47,01/02/2025,Boda,11,162,No,No,10,9,7,No
+15 años Luisa #43,05/01/2025,15 años,12,196,No,No,10,9,8,No
+Entrega de alimentos Empresa Andina #50,19/10/2022,Entrega de alimentos,11,454,No,No,10,6,6,No
+Entrega de alimentos Hospital San José #68,13/06/2021,Entrega de alimentos,8,402,No,No,8,6,7,No
+Boda Martínez #68,12/10/2025,Boda,15,232,No,No,7,10,9,No
+15 años Luisa #32,01/11/2021,15 años,8,159,No,No,8,10,10,Si
+Fiesta de grado Grados #49,30/10/2022,Fiesta de grado,5,88,No,No,10,7,9,No
+Boda Ramírez #7,27/11/2021,Boda,16,206,No,No,10,9,9,No
+Cumpleaños Familia Navarro 2 años #46,07/07/2022,Fiesta de cumpleaños,4,37,No,No,9,10,9,No
+Boda Morales #43,20/05/2025,Boda,14,170,No,No,10,10,9,No
+15 años Natalia #44,17/09/2024,15 años,13,200,No,No,8,10,10,No
+Cumpleaños Familia Medina 8 años #14,02/07/2024,Fiesta de cumpleaños,4,76,No,No,6,9,9,No
+Fiesta de grado Promoción #72,08/09/2024,Fiesta de grado,10,208,No,No,10,10,9,No
+Boda Castro #51,26/12/2021,Boda,15,220,No,No,8,8,8,No
+Cumpleaños Familia Pérez 65 años #6,09/05/2022,Fiesta de cumpleaños,5,92,No,No,10,7,9,No
+Fiesta de grado Ceremonia #42,03/11/2021,Fiesta de grado,5,71,Si,No,10,10,6,No
+Cumpleaños Familia Herrera 6 años #32,16/11/2025,Fiesta de cumpleaños,5,86,No,No,10,9,9,No
+Fiesta de grado Egresados #58,13/06/2021,Fiesta de grado,10,175,No,No,8,8,10,No
+Boda Morales #18,04/03/2024,Boda,15,211,No,No,10,9,9,No
+Cumpleaños Familia Rojas 43 años #19,08/02/2023,Fiesta de cumpleaños,6,109,No,No,8,7,9,No
+Cumpleaños Familia Herrera 47 años #1,28/12/2022,Fiesta de cumpleaños,5,110,Si,No,5,8,7,Si
+Boda Pérez #21,12/10/2025,Boda,12,204,No,No,8,9,9,No
+Boda Martínez #23,28/11/2022,Boda,8,127,No,No,8,8,8,Si
+Fiesta de grado Graduación #54,26/11/2025,Fiesta de grado,12,211,Si,No,7,9,6,No
+Boda Torres #3,13/12/2022,Boda,8,126,Si,Si,6,4,9,Si
+Cumpleaños Familia Medina 30 años #54,19/09/2023,Fiesta de cumpleaños,4,50,No,No,8,10,8,No
+Boda Castro #77,04/11/2022,Boda,8,76,No,No,8,10,7,No
+Entrega de alimentos Banco Central #36,01/05/2025,Entrega de alimentos,8,366,No,No,8,7,8,No
+15 años Sofía #34,10/09/2021,15 años,6,101,No,No,9,7,9,No
+Cumpleaños Familia Herrera 42 años #57,10/12/2022,Fiesta de cumpleaños,8,160,No,Si,8,7,9,No
+Fiesta de grado Promoción #63,19/12/2023,Fiesta de grado,6,133,No,No,10,8,8,No
+Fiesta de grado Grados #8,13/05/2025,Fiesta de grado,5,102,No,No,10,10,7,No
+Entrega de alimentos Programa Alimentario #30,14/11/2023,Entrega de alimentos,3,108,No,No,7,6,9,No
+15 años Natalia #47,16/12/2022,15 años,8,156,No,No,10,9,10,No
+Fiesta de grado Egresados #60,08/09/2022,Fiesta de grado,6,116,No,Si,6,5,10,No
+Boda Torres #8,21/12/2023,Boda,14,212,No,Si,6,4,8,Si
+15 años Isabella #63,05/08/2021,15 años,7,98,No,No,7,7,7,No
+Fiesta de grado Promoción #77,02/06/2023,Fiesta de grado,9,165,No,No,8,9,10,No
+Cumpleaños Familia Rojas 14 años #3,28/12/2021,Fiesta de cumpleaños,8,141,No,No,10,8,7,No
+Cumpleaños Familia Herrera 2 años #63,16/12/2025,Fiesta de cumpleaños,7,135,No,No,10,10,9,No
+Entrega de alimentos Hospital San José #79,24/01/2022,Entrega de alimentos,9,355,No,No,9,9,9,No
+Cumpleaños Familia Pérez 50 años #11,05/11/2025,Fiesta de cumpleaños,6,117,No,No,8,9,10,No
+Cumpleaños Familia Navarro 73 años #28,05/10/2023,Fiesta de cumpleaños,5,118,Si,No,9,9,9,No
+Fiesta de grado Promoción #51,24/03/2024,Fiesta de grado,12,239,No,No,8,7,6,Si
+Boda Martínez #45,09/05/2024,Boda,8,100,No,No,9,8,10,No
+15 años Luisa #38,28/11/2025,15 años,8,152,No,Si,6,7,8,No
+Cumpleaños Familia Medina 50 años #44,02/02/2024,Fiesta de cumpleaños,7,137,No,No,5,9,9,Si
+Cumpleaños Familia Pérez 58 años #56,21/08/2023,Fiesta de cumpleaños,6,110,No,No,7,10,7,No
+Entrega de alimentos Empresa Andina #53,11/09/2021,Entrega de alimentos,4,260,No,No,6,10,8,Si
+Cumpleaños Familia Herrera 15 años #74,21/06/2025,Fiesta de cumpleaños,4,59,Si,No,7,8,5,No
+Entrega de alimentos Hospital San José #7,18/12/2024,Entrega de alimentos,4,175,No,No,7,8,10,No
+15 años Camila #1,01/11/2023,15 años,7,120,No,No,10,7,7,No
+Cumpleaños Familia Herrera 12 años #70,05/10/2024,Fiesta de cumpleaños,4,83,No,No,7,6,9,No
+15 años Luisa #72,26/04/2024,15 años,6,93,No,No,9,6,9,No
+15 años Sofía #33,03/11/2022,15 años,8,131,No,No,10,7,7,No
+Fiesta de grado Ceremonia #16,06/10/2021,Fiesta de grado,13,230,No,No,6,8,10,No
+15 años Gabriela #8,29/10/2022,15 años,10,142,Si,No,7,7,9,No
+Fiesta de grado Promoción #55,06/12/2024,Fiesta de grado,10,180,No,No,10,7,9,No
+Entrega de alimentos Hospital San José #72,04/11/2023,Entrega de alimentos,7,334,No,Si,6,7,9,No
+Fiesta de grado Egresados #79,04/06/2024,Fiesta de grado,10,188,Si,Si,7,7,10,No
+Boda Pérez #57,10/10/2022,Boda,8,103,No,No,7,9,7,Si
+Entrega de alimentos Colegio Nuevo Horizonte #73,26/11/2023,Entrega de alimentos,13,471,Si,Si,7,6,8,No
+15 años Valentina #64,22/08/2021,15 años,7,112,No,No,8,8,10,No
+Boda Sánchez #31,29/12/2023,Boda,18,256,No,No,9,9,10,No
+Cumpleaños Familia Ortiz 23 años #52,22/07/2024,Fiesta de cumpleaños,7,137,No,No,6,9,6,Si
+Entrega de alimentos Fundación Vida #35,25/01/2025,Entrega de alimentos,7,407,No,No,9,9,7,No
+Boda Sánchez #17,06/07/2022,Boda,14,219,No,No,7,8,9,Si
+Boda Hernández #66,19/12/2022,Boda,16,253,No,No,10,8,8,No
+Fiesta de grado Graduación #12,15/06/2024,Fiesta de grado,5,63,No,No,10,10,10,No
+15 años Daniela #24,17/12/2024,15 años,13,181,No,No,7,9,10,No
+15 años Valentina #59,15/12/2024,15 años,10,166,No,Si,7,4,9,No
+Fiesta de grado Grados #24,07/06/2023,Fiesta de grado,8,165,No,No,8,10,9,No
+Entrega de alimentos Hospital San José #4,26/06/2021,Entrega de alimentos,5,236,Si,No,8,10,7,No
+15 años Daniela #20,08/03/2023,15 años,11,167,No,No,8,7,10,Si
+Entrega de alimentos Comedor Comunitario #49,29/12/2021,Entrega de alimentos,9,436,No,No,10,9,10,No
+Fiesta de grado Promoción #75,15/10/2021,Fiesta de grado,7,160,No,No,6,7,8,Si
+Boda Sánchez #70,31/12/2021,Boda,9,155,No,Si,7,8,9,No
+Fiesta de grado Promoción #32,28/01/2022,Fiesta de grado,5,102,No,No,7,10,9,No
+Fiesta de grado Grados #39,03/12/2021,Fiesta de grado,10,225,No,Si,7,6,8,No
+15 años Gabriela #12,24/05/2022,15 años,7,98,No,No,9,10,9,No
+Fiesta de grado Grados #73,19/10/2023,Fiesta de grado,6,132,No,No,9,9,7,No
+Cumpleaños Familia Navarro 49 años #73,21/01/2021,Fiesta de cumpleaños,4,67,No,No,8,10,8,No
+15 años Camila #31,23/10/2025,15 años,7,134,No,No,9,8,8,No
+Boda Martínez #75,09/02/2022,Boda,10,121,No,No,8,9,7,No
