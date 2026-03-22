@@ -9,7 +9,7 @@ st.title('Gráfico de Control - Eventos "Fallidos" por Mes')
 df = pd.read_csv("dataset_casa_eventos_400.csv")
 
 # Convertir fecha
-df["fecha"] = pd.to_datetime(df["Fecha"])
+df["Fecha"] = pd.to_datetime(df["Fecha"])
 
 # -------------------------------
 # 1. DETECTAR EVENTOS FALLIDOS
