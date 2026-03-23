@@ -93,3 +93,36 @@ for año in años:
     st.write(f"Media: {media:.2f}")
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
+    
+    
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Cargar dataset
+df = pd.read_csv('dataset_pareto.csv')
+# Convertir a formato adecuado (una sola fila → categorías)
+frecuencias = df.iloc[0]
+frecuencias = frecuencias.sort_values(ascending=False)
+
+# Calcular porcentaje acumulado
+porcentaje_acumulado = frecuencias.cumsum() / frecuencias.sum() * 100
+
+# Mostrar dataset con frecuencias
+pareto_df = pd.DataFrame({
+    'Frecuencia': frecuencias,
+    'Porcentaje Acumulado': porcentaje_acumulado
+})
+
+print(pareto_df)
+
+# Gráfico de Pareto
+fig, ax1 = plt.subplots()
+
+ax1.bar(frecuencias.index, frecuencias)
+ax2 = ax1.twinx()
+ax2.plot(frecuencias.index, porcentaje_acumulado, marker='o')
+
+ax2.axhline(80, linestyle='--')
+
+plt.xticks(rotation=45)
+plt.title('Diagrama de Pareto')
