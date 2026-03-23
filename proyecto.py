@@ -93,3 +93,31 @@ for año in años:
     st.write(f"Media: {media:.2f}")
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
+
+    # -------------------------------
+# 3. AGRUPAR POR MES
+# -------------------------------
+df["mes"] = df["Fecha"].dt.to_period("M")
+
+resumen = df.groupby("mes").agg({
+    "eventos_fallidos": "sum",   # total errores
+    "Fecha": "count"             # total eventos
+}).rename(columns={"Fecha": "total_eventos"}).reset_index()
+
+# -------------------------------
+# 4. GRÁFICO DE DISPERSIÓN
+# -------------------------------
+plt.figure()
+
+plt.scatter(
+    resumen["total_eventos"],
+    resumen["eventos_fallidos"]
+)
+
+plt.xlabel("Total de eventos por mes")
+plt.ylabel("Eventos fallidos por mes")
+plt.title("Relación entre cantidad de eventos y errores mensuales")
+
+plt.grid()
+
+plt.show()
