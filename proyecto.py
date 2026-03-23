@@ -32,17 +32,6 @@ st.markdown(
 )
 
 # -------------------------------
-# 1. DETECTAR EVENTOS FALLIDOS
-# -------------------------------
-df["eventos_fallidos"] = (
-    (df["Retraso?"] == "Si") |
-    (df["Incompleto"] == "Si") |
-    (df["Calidad del evento"] <= 5) |
-    (df["Calidad de la comida"] <= 5) |
-    (df["Calidad de la organizacion"] <= 5)
-)
-
-# -------------------------------
 # 2. CREAR AÑO Y MES
 # -------------------------------
 df["año"] = df["Fecha"].dt.year
@@ -94,30 +83,52 @@ for año in años:
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
 
-    # -------------------------------
-# 3. AGRUPAR POR MES
+# -------------------------------
+# 4. AGRUPAR POR MES
 # -------------------------------
 df["mes"] = df["Fecha"].dt.to_period("M")
 
-resumen = df.groupby("mes").agg({
-    "eventos_fallidos": "sum",   # total errores
-    "Fecha": "count"             # total eventos
-}).rename(columns={"Fecha": "total_eventos"}).reset_index()
+resumen = df.groupby("mes").agg(
+    total_eventos=("mes", "size"),
+    eventos_fallidos=("eventos_fallidos", "sum"),
+    personal_promedio=("Cantidad personal", "mean")
+).reset_index()
+
+# Calcular porcentaje de errores
+resumen["porcentaje_fallos"] = resumen["eventos_fallidos"] / resumen["total_eventos"]
+
+# Mostrar datos
+st.subheader("Datos agrupados")
+st.write(resumen)
 
 # -------------------------------
-# 4. GRÁFICO DE DISPERSIÓN
+# 5. GRÁFICO DE DISPERSIÓN
 # -------------------------------
-plt.figure()
+fig, ax = plt.subplots()
 
-plt.scatter(
-    resumen["total_eventos"],
-    resumen["eventos_fallidos"]
-)
+x = resumen["personal_promedio"]
+y = resumen["porcentaje_fallos"]
 
-plt.xlabel("Total de eventos por mes")
-plt.ylabel("Eventos fallidos por mes")
-plt.title("Relación entre cantidad de eventos y errores mensuales")
+# Scatter
+ax.scatter(x, y)
 
-plt.grid()
+# Línea de tendencia
+if len(x) > 1:
+    m, b = np.polyfit(x, y, 1)
+    x_line = np.linspace(x.min(), x.max(), 100)
+    y_line = m * x_line + b
+    ax.plot(x_line, y_line)
 
-plt.show()
+# Etiquetas
+ax.set_xlabel("Personal promedio por mes")
+ax.set_ylabel("% de eventos fallidos")
+ax.set_title("Relación entre personal y porcentaje de errores")
+
+st.pyplot(fig)
+
+# -------------------------------
+# 6. MÉTRICAS
+# -------------------------------
+if len(x) > 1:
+    correlacion = np.corrcoef(x, y)[0, 1]
+    st.write(f"Correlación: {correlacion:.2f}")
