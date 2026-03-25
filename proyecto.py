@@ -113,12 +113,12 @@ pareto_df = pd.DataFrame({
 })
 
 st.subheader("📋 Tabla de resultados")
-    st.dataframe(
-        pareto_df.style.format({
-            "Porcentaje Acumulado": "{:.2f}%"
-        }),
-        use_container_width=True
-    )
+st.dataframe(
+    pareto_df.style.format({
+        "Porcentaje Acumulado": "{:.2f}%"
+    }),
+    use_container_width=True
+)
 
 # Gráfico mejorado
 fig, ax1 = plt.subplots(figsize=(10, 6))
@@ -132,14 +132,11 @@ ax2.set_ylabel("Porcentaje acumulado")
 
 ax2.axhline(80, linestyle='--')
 
-    # Etiquetas bien organizadas
+# Etiquetas bien organizadas
 ax1.set_xticks(range(len(frecuencias.index)))
 ax1.set_xticklabels(frecuencias.index, rotation=45, ha='right')
 
 plt.tight_layout()
-
-st.subheader("📈 Gráfico de Pareto")
-st.pyplot(fig)
 
 st.subheader("📈 Gráfico de Pareto")
 st.pyplot(fig)
