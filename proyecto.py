@@ -101,9 +101,9 @@ for año in años:
 # Título
 st.title("📊 Diagrama de Pareto")
 # Cargar dataset
-df = pd.read_csv('dataset_pareto.csv')
+dp = pd.read_csv('dataset_pareto.csv')
 # Convertir a formato adecuado (una sola fila → categorías)
-frecuencias = df.iloc[0]
+frecuencias = dp.iloc[0]
 frecuencias = frecuencias.sort_values(ascending=False)
 
 # Calcular porcentaje acumulado
@@ -155,7 +155,27 @@ st.image(
 )
 
 # -------------------------------
-# 5. GRÁFICO DE DISPERSIÓN
+# AGRUPAR POR MES
+# -------------------------------
+df["Fecha"] = pd.to_datetime(df["Fecha"], dayfirst=True, errors="coerce")
+
+df["mes"] = df["Fecha"].dt.to_period("M")
+
+resumen = df.groupby("mes").agg(
+    total_eventos=("mes", "size"),
+    eventos_fallidos=("eventos_fallidos", "sum"),
+    personal_promedio=("Cantidad personal", "mean")
+).reset_index()
+
+# Calcular porcentaje de errores
+resumen["porcentaje_fallos"] = resumen["eventos_fallidos"] / resumen["total_eventos"]
+
+# Mostrar datos
+st.subheader("Datos agrupados")
+st.write(resumen)
+
+# -------------------------------
+# GRÁFICO DE DISPERSIÓN
 # -------------------------------
 
 fig, ax = plt.subplots()
