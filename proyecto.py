@@ -94,7 +94,10 @@ for año in años:
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
 
-    
+# -------------------------------
+# PARETO
+# -------------------------------
+
 # Título
 st.title("📊 Diagrama de Pareto")
 # Cargar dataset
@@ -151,3 +154,35 @@ st.image(
     use_container_width=True
 )
 
+# -------------------------------
+# 5. GRÁFICO DE DISPERSIÓN
+# -------------------------------
+
+fig, ax = plt.subplots()
+
+x1 = resumen["personal_promedio"]
+y1 = resumen["porcentaje_fallos"]
+
+# Scatter
+ax.scatter(x1, y1)
+
+# Línea de tendencia
+if len(x1) > 1:
+    m, b = np.polyfit(x1, y1, 1)
+    x_line = np.linspace(x1.min(), x1.max(), 100)
+    y_line = m * x_line + b
+    ax.plot(x_line, y_line)
+
+# Etiquetas
+ax.set_xlabel("Personal promedio por mes")
+ax.set_ylabel("% de eventos fallidos")
+ax.set_title("Relación entre personal y porcentaje de errores")
+
+st.pyplot(fig)
+
+# -------------------------------
+# 6. MÉTRICAS
+# -------------------------------
+if len(x1) > 1:
+    correlacion = np.corrcoef(x1, y1)[0, 1]
+    st.write(f"Correlación: {correlacion:.2f}")
