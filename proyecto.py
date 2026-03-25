@@ -94,6 +94,55 @@ for año in años:
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
 
+    
+# Título
+st.title("📊 Diagrama de Pareto")
+# Cargar dataset
+df = pd.read_csv('dataset_pareto.csv')
+# Convertir a formato adecuado (una sola fila → categorías)
+frecuencias = df.iloc[0]
+frecuencias = frecuencias.sort_values(ascending=False)
+
+# Calcular porcentaje acumulado
+porcentaje_acumulado = frecuencias.cumsum() / frecuencias.sum() * 100
+
+# Mostrar dataset con frecuencias
+pareto_df = pd.DataFrame({
+    'Frecuencia': frecuencias,
+    'Porcentaje Acumulado': porcentaje_acumulado
+})
+
+st.subheader("📋 Tabla de resultados")
+    st.dataframe(
+        pareto_df.style.format({
+            "Porcentaje Acumulado": "{:.2f}%"
+        }),
+        use_container_width=True
+    )
+
+# Gráfico mejorado
+fig, ax1 = plt.subplots(figsize=(10, 6))
+
+ax1.bar(range(len(frecuencias.index)), frecuencias)
+ax1.set_ylabel("Frecuencia")
+
+ax2 = ax1.twinx()
+ax2.plot(range(len(frecuencias.index)), porcentaje_acumulado, marker='o')
+ax2.set_ylabel("Porcentaje acumulado")
+
+ax2.axhline(80, linestyle='--')
+
+    # Etiquetas bien organizadas
+ax1.set_xticks(range(len(frecuencias.index)))
+ax1.set_xticklabels(frecuencias.index, rotation=45, ha='right')
+
+plt.tight_layout()
+
+st.subheader("📈 Gráfico de Pareto")
+st.pyplot(fig)
+
+st.subheader("📈 Gráfico de Pareto")
+st.pyplot(fig)
 
 st.title("Análisis de Problemas en Eventos")
 
@@ -104,3 +153,4 @@ st.image(
     caption="Causas de retrasos en los eventos",
     use_container_width=True
 )
+
