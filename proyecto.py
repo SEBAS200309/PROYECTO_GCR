@@ -143,6 +143,14 @@ st.image(
     use_container_width=True
 )
 
+st.subheader("Diagrama de Ishikawa - ERRORES EN PEDIDO")
+
+st.image(
+    "images/ishikawa_errores.jpeg",
+    caption="Causas de errores en pedido",
+    use_container_width=True
+)
+
 # -------------------------------
 # AGRUPAR POR MES
 # -------------------------------
