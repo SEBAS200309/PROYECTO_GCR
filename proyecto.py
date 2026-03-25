@@ -32,17 +32,6 @@ st.markdown(
 )
 
 # -------------------------------
-# 1. DETECTAR EVENTOS FALLIDOS
-# -------------------------------
-df["eventos_fallidos"] = (
-    (df["Retraso?"] == "Si") |
-    (df["Incompleto"] == "Si") |
-    (df["Calidad del evento"] <= 5) |
-    (df["Calidad de la comida"] <= 5) |
-    (df["Calidad de la organizacion"] <= 5)
-)
-
-# -------------------------------
 # 2. CREAR AÑO Y MES
 # -------------------------------
 df["año"] = df["Fecha"].dt.year
@@ -161,14 +150,17 @@ df["Fecha"] = pd.to_datetime(df["Fecha"], dayfirst=True, errors="coerce")
 
 df["mes"] = df["Fecha"].dt.to_period("M")
 
+# Convertir error en pedido a numérico
+df["error_pedido_num"] = df["Error en pedido"].map({"Si": 1, "No": 0})
+
 resumen = df.groupby("mes").agg(
     total_eventos=("mes", "size"),
-    eventos_fallidos=("eventos_fallidos", "sum"),
+    promedio_error_pedido=("error_pedido_num", "mean"),
     personal_promedio=("Cantidad personal", "mean")
 ).reset_index()
 
-# Calcular porcentaje de errores
-resumen["porcentaje_fallos"] = resumen["eventos_fallidos"] / resumen["total_eventos"]
+# Usar directamente el promedio
+resumen["porcentaje_fallos"] = resumen["promedio_error_pedido"]
 
 # Mostrar datos
 st.subheader("Datos agrupados")
@@ -177,7 +169,6 @@ st.write(resumen)
 # -------------------------------
 # GRÁFICO DE DISPERSIÓN
 # -------------------------------
-
 fig, ax = plt.subplots()
 
 x1 = resumen["personal_promedio"]
@@ -195,13 +186,13 @@ if len(x1) > 1:
 
 # Etiquetas
 ax.set_xlabel("Personal promedio por mes")
-ax.set_ylabel("% de eventos fallidos")
-ax.set_title("Relación entre personal y porcentaje de errores")
+ax.set_ylabel("Promedio de errores en pedido")
+ax.set_title("Relación entre personal y errores en pedido")
 
 st.pyplot(fig)
 
 # -------------------------------
-# 6. MÉTRICAS
+# MÉTRICAS
 # -------------------------------
 if len(x1) > 1:
     correlacion = np.corrcoef(x1, y1)[0, 1]
