@@ -93,3 +93,14 @@ for año in años:
     st.write(f"Media: {media:.2f}")
     st.write(f"UCL: {UCL:.2f}")
     st.write(f"LCL: {LCL:.2f}")
+
+
+st.title("Análisis de Problemas en Eventos")
+
+st.subheader("Diagrama de Ishikawa - Retrasos")
+
+st.image(
+    "images/ishikawa_retrasos.png",
+    caption="Causas de retrasos en los eventos",
+    use_container_width=True
+)
