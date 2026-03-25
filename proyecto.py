@@ -162,10 +162,6 @@ resumen = df.groupby("mes").agg(
 # Usar directamente el promedio
 resumen["porcentaje_fallos"] = resumen["promedio_error_pedido"]
 
-# Mostrar datos
-st.subheader("Datos agrupados")
-st.write(resumen)
-
 # -------------------------------
 # GRÁFICO DE DISPERSIÓN
 # -------------------------------
