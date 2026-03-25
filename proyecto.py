@@ -24,6 +24,19 @@ df['eventos_fallidos'] = (
 )
 
 porcentage_f = (df['eventos_fallidos'].sum() / len(df)) * 100
+## EXPLICACION PROBLEMAS
+st.markdown("""
+<h1 style='text-align: center;'>📊 PROBLEMA BASE</h1>
+
+<p style='text-align: justify; font-size:18px;'>
+Una casa de eventos ha realizado 400 eventos a lo largo de su historia (5 años),
+ellos nos dan un dataset en el cual se encuentran sus eventos realizados hasta la fecha.
+Sucede que ellos han presentado una serie de fallas e inconvenientes en sus eventos y no han cumplido
+con un buen nivel de satisfacción al cliente. Nos están solicitando que realicemos un proceso de análisis
+para ayudarles a identificar los problemas que tienen, cuáles deben atacar y de qué manera abordarlos
+para así mejorar su proceso de organización de eventos.
+</p>
+""", unsafe_allow_html=True)
 
 st.markdown(
     f"<h3 style='text-align: center; color: white;'>EL TOTAL DE EVENTOS FALLIDOS ES {df['eventos_fallidos'].sum()} "
@@ -42,6 +55,21 @@ resumen = df.groupby(["año", "mes"])["eventos_fallidos"].sum().reset_index()
 
 st.subheader("Eventos fallidos por año y mes")
 st.write(resumen)
+
+# -------------------------------
+# DEFINICIÓN GRÁFICO DE CONTROL
+# -------------------------------
+st.markdown("""
+### 📊 ¿Qué es un gráfico de control?
+
+Un gráfico de control permite monitorear el comportamiento de un proceso a lo largo del tiempo.
+
+- **Media (Promedio):** Valor central del proceso.
+- **UCL (Upper Control Limit):** Límite superior de control → indica el valor máximo esperado.
+- **LCL (Lower Control Limit):** Límite inferior de control → indica el valor mínimo esperado.
+
+👉 Se utilizan para identificar variaciones anormales en el proceso y detectar problemas.
+""")
 
 # -------------------------------
 # 3. GRÁFICOS POR CADA AÑO
@@ -79,9 +107,12 @@ for año in años:
     st.pyplot(fig)
 
     # Métricas por año
-    st.write(f"Media: {media:.2f}")
-    st.write(f"UCL: {UCL:.2f}")
-    st.write(f"LCL: {LCL:.2f}")
+    tabla_metricas = pd.DataFrame({
+        "Métrica": ["Media", "UCL", "LCL"],
+        "Valor": [round(media,2), round(UCL,2), round(LCL,2)]
+    })
+
+    st.table(tabla_metricas)
 
 # -------------------------------
 # PARETO
@@ -135,21 +166,28 @@ st.pyplot(fig)
 
 st.title("Análisis de Problemas en Eventos")
 
-st.subheader("Diagrama de Ishikawa - Retrasos")
+# -------------------------------
+# ISHIKAWA EN COLUMNAS
+# -------------------------------
+st.title("Análisis de Problemas en Eventos")
 
-st.image(
-    "images/ishikawa_retrasos.png",
-    caption="Causas de retrasos en los eventos",
-    use_container_width=True
-)
+col1, col2 = st.columns(2)
 
-st.subheader("Diagrama de Ishikawa - ERRORES EN PEDIDO")
+with col1:
+    st.subheader("Diagrama de Ishikawa - Retrasos")
+    st.image(
+        "images/ishikawa_retrasos.png",
+        caption="Causas de retrasos en los eventos",
+        use_container_width=True
+    )
 
-st.image(
-    "images/ishikawa_errores.jpeg",
-    caption="Causas de errores en pedido",
-    use_container_width=True
-)
+with col2:
+    st.subheader("Diagrama de Ishikawa - Errores en Pedido")
+    st.image(
+        "images/ishikawa_errores.jpeg",
+        caption="Causas de errores en pedido",
+        use_container_width=True
+    )
 
 # -------------------------------
 # AGRUPAR POR MES
